@@ -15,5 +15,5 @@ pkg install
 #install sudo for superuser
 pkg install security/sudo
 #add [user] to sudo group by adding entry into /usr/local/etc/sudoers
-ckoulas ALL=(ALL) ALL
+[user] ALL=(ALL) ALL
 #installed nano, git, 
